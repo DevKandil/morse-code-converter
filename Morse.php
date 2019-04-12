@@ -97,7 +97,7 @@ if (isset($_POST['text'])) {
 
         <form action="?" method="post">
             <h4>Your Text</h4>
-            <textarea name="text" type="text" rows="10" cols="70"><?php if (!empty($text)) { echo $text; } ?></textarea>
+            <textarea name="text" type="text" rows="10" cols="70" required ><?php if (!empty($text)) { echo $text; } ?></textarea>
             <input class="btn" type="submit" value="submit">
             <hr>
             <h4>Morse Code</h4>
